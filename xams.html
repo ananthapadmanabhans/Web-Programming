@@ -1,0 +1,39 @@
+<html>
+<title>Online Examination</title>
+<script language="javascript">
+    function exams(ans)
+    {var i=0;
+     if(ans.one[0].checked)
+      i=i+1;
+     if(ans.two[1].checked)
+      i=i+1;
+     window.alert("THANK YOU ATTENDING YOUR SCORE IS:" i);}
+</script>
+<body style=background-color:cadetblue>
+        <h1><center>ONLINE EXAMINATION</center></h1>
+    <forms onsubmit="exams(this)">
+        <p>
+        <h2>1.How many sides does a rectangle have?</h2>
+        <input type="radio" name="one" value="4">
+        <label>4</label>
+        <input type="radio" name="one" value="6">
+        <label>6</label>
+        <input type="radio" name="one" value="8">
+        <label>8</label><br><br></p>    
+        <p>
+        <h2>2.Area of Rectangle is </h2>
+        <input type="radio" name="two" value="l/b">
+        <label>l/b</label>
+        <input type="radio" name="two" value="lb">
+        <label>lb</label>
+        <input type="radio" name="two" value="l+b">
+        <label>l+b</label><br><br></p>
+        
+       
+        <input type="submit" value="submit">
+        <input type="reset" value="reset"> 
+     
+
+    </forms>
+</body> 
+</html>
