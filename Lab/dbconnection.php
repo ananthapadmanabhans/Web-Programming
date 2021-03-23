@@ -1,0 +1,11 @@
+<?php
+define('DB_SERVER','LOCALHOST');
+define('DB_RNO','root');
+define('DB_NAME','root');
+define('DB_MATHS','root');
+define('DB_ASE','root');
+define('DB_DIGITAL','root');
+define('DB_DS','root');
+define('DB_DATABASE','STUD1');
+$db=mysqli_connect(DB_SERVER,DB_RNO,DB_NAME,DB_MATHS,DB_ASE,DB_DIGITAL,DB_DS,DB_DATABASE);
+?>
